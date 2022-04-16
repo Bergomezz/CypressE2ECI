@@ -1,6 +1,7 @@
+require('cypress-grep')()
 import 'cypress-dark'
+import 'cypress-dark/src/halloween'
 import 'cypress-file-upload'
 import 'cypress-iframe'
 import 'cypress-mailosaur'
 import './commands'
-require('cypress-grep')()
